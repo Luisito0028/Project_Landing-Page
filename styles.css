@@ -4,13 +4,16 @@ body {
 
 .section {
     border: 3px solid red;
-    padding: 0px 350px;
+    padding: 0px 400px;
 }
 
 /*SECTION 1*/
 #one {
     color: #f9faf8;
     background-color: #1f2937;
+    padding: 50px 400px;
+    display: flex;
+    flex-direction: column;
 }
 
 #one .header {
@@ -67,9 +70,9 @@ body {
 }
 
 #one .image-box {
-    width: 350px;
-    height: 250px;
-    margin: 20px 20px;
+    width: 600px;
+    height: 230px;
+    margin: 20px 0px 20px 20px;
     background-color: gray;
     color: white;
     display: flex;
