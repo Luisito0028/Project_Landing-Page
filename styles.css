@@ -4,6 +4,7 @@ body {
 
 .section {
     border: 3px solid red;
+    padding: 0px 350px;
 }
 
 /*SECTION 1*/
@@ -16,7 +17,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 350px;
+    padding: 50px auto;
+    margin-bottom: 50px;
 }
 
 #one .header h1 {
@@ -33,4 +35,44 @@ body {
 #one h1 {
     font-size: 48px;
     font-weight: 900;
+}
+
+#one .signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#one .content {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#one .content h1, #one .content p, #one .content button {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#one button {
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+}
+
+#one .image-box {
+    width: 350px;
+    height: 250px;
+    margin: 20px 20px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
