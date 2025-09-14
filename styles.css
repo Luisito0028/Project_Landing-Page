@@ -1,3 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .section {
     border: 3px solid red;
+}
+
+/*SECTION 1*/
+#one {
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+#one .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 350px;
+}
+
+#one .header h1 {
+    font-size: 24px;
+}
+
+#one .link {
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#one h1 {
+    font-size: 48px;
+    font-weight: 900;
 }
