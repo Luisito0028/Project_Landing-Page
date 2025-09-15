@@ -3,7 +3,7 @@ body {
 }
 
 .section {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     padding: 0px 400px;
 }
 
@@ -151,7 +151,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 #four .container {
@@ -184,4 +184,10 @@ body {
 
 #five {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+
+    padding: 15px 0;
 }
