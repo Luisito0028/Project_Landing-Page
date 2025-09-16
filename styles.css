@@ -2,25 +2,25 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.section {
-    /* border: 3px solid red; */
-    padding: 0px 400px;
-}
-
 #one {
-    color: #f9faf8;
     background-color: #1f2937;
-    padding: 50px 400px;
+    color: #f9faf8;
+    height: 450px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#one .header, #one .signup {
+    width: 1050px;
 }
 
 #one .header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 50px auto;
-    margin-bottom: 50px;
 }
 
 #one .header h1 {
@@ -29,33 +29,37 @@ body {
 
 #one .link {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-#one h1 {
+#one .signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#one .content, #one .content h1, #one p, #one image-box {
+    margin: 0px 0px 2px 0px; /*change margin-bottom later*/
+    padding: 0px;
+}
+
+#one .content {
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+}
+
+#one .signup h1 {
     font-size: 48px;
     font-weight: 900;
 }
 
-#one .signup {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#one .content {
-    max-width: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-#one .content h1, #one .content p, #one .content button {
-    margin-top: 4px;
-    margin-bottom: 4px;
+#one .signup p {
+    color: #E5E7EB;
 }
 
 #one button {
@@ -69,8 +73,8 @@ body {
 }
 
 #one .image-box {
-    width: 600px;
-    height: 230px;
+    width: 550px;
+    height: 240px;
     margin: 20px 0px 20px 20px;
     background-color: gray;
     color: white;
